@@ -1,5 +1,5 @@
 require 'rspec'
-require './hello.rb'
+require './greeting.rb'
 
 RSpec.describe "greeting methods" do
   it "greeting age < 18" do
