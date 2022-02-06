@@ -1,5 +1,5 @@
 require 'rspec'
-require './app.rb'
+require './word.rb'
 
 RSpec.describe "word_cs" do
   it "word_cs numbers" do
