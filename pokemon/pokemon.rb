@@ -3,17 +3,7 @@ def add_pokemon(name_a, color_a)
 end
 
 
-arr = [
-  { name: 'Bulbasaur', color: 'blue' },
-  { name: 'Charmander', color: 'red' },
-  { name: 'Squirtle', color: 'blue' },
-  { name: 'Butterfly', color: 'purple' },
-  { name: 'Pidjeotto', color: 'yellow' },
-  { name: 'Golbat', color: 'purple' }
-]
-
-
-puts arr
+arr = []
 
 print "Please enter Pockemons: "
 numbers = gets.to_i
@@ -31,7 +21,5 @@ while num_pokemon < numbers
   arr << add_pokemon(name, color)
 
 end
-
-
 
 puts arr
