@@ -1,8 +1,8 @@
 
 def word_cs(words)
   chars = words.split('')
-  if chars.last.include?('s') && chars[chars.length - 2].include?('c')
-     "Include 'cs': #{2**(chars.length)}"
+  if chars.last.include?('S') && chars[chars.length - 2].include?('C')
+     "Include 'CS': #{2**(chars.length)}"
   else
     words.reverse
   end
